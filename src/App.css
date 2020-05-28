@@ -1,7 +1,7 @@
-.App {
+ /* .App {
   text-align: center;
-}
-
+} */
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,91 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.Registeration,.LogIn{
+  height: 100%;
+  margin: 0;
+/* background: rgb(248, 188, 245); */
+background-image: url(./download.jpg);
+width: 100%;
+
+background-repeat: repeat-x;
+background-size: 50% 100% ;
+
 }
+
+.container{
+
+  margin-top: 50px; 
+  width: 700px !important;
+  height: 50%;
+  /* border: 2px solid black; */
+  background-color:rgb(168,168,168);
+}
+.Register-header{
+ text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color:black;
+}
+.form-control,.alert{
+  width: 60% !important;
+}
+
+label{
+  font-weight: bold;
+  color: black;
+}
+.form-group{
+  position: relative;
+  left: 20%;
+}
+.btn {
+  position: relative;
+  left: 45%;
+  bottom: 3px;
+}
+.collapse{
+  margin-left:35%; 
+}
+.nav-link{
+  margin: 0px 10px
+}
+.home{
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+
+}
+
+.home_slider_container
+{
+	width: 100%;
+  height: 50%;
+  overflow-y: none
+}
+
+.home_slider_background
+{
+  margin-top: 3.5%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center center;
+  overflow-y: hidden;
+}
+.createpost{
+  width: 15%;
+  padding: 10px; 
+  border:3px solid gray; 
+  background-color: floralwhite;
+  border-radius: 15px 15px ; 
+   margin: auto;
+   position: relative;
+   top: 12%;
+}
+
